@@ -9,5 +9,5 @@ on:
       runs-on: ubuntu-latest
 
       steps:
-        -name: Run echo command
-          run: echo "Hello, World!"
+      - name: Echo Hello
+        run: echo "Hello, World!"
