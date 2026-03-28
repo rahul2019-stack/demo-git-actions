@@ -10,4 +10,4 @@ on:
 
       steps:
         -name: Run echo command
-         run: echo "Hello world!"
+          run: echo "Hello, World!"
