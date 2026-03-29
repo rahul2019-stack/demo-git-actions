@@ -10,3 +10,9 @@ jobs:
     steps:
       - name: Run a command
         run: echo "Hello world"
+
+      - name: Checkout step
+        uses: actions/checkout@v4
+
+      - name: Run command
+        run: ls -ll
