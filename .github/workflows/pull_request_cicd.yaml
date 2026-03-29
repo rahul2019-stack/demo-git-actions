@@ -3,8 +3,8 @@ name: CI-CD pipeline for pull request events
 on:
   pull_request:
     branches:
-      - feat/**
-      - feat/*
+      - master
+      - feat/branch1
 
 jobs:
   CI:
